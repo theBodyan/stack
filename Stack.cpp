@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Stack.h"
+#include "EStackEmpty.h"
 
 template<class T>
 void Stack<T>::push(const T &value) {

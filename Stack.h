@@ -3,7 +3,6 @@
 
 #include <forward_list>
 
-//класс стек
 template<class T>
 class Stack {
 public:

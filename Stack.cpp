@@ -39,3 +39,8 @@ Stack<T>::~Stack<T>() {
     clear();
 };
 
+template<class T>
+void Stack<T>::clear() {
+    list.clear();
+    size = 0;
+}

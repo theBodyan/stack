@@ -4,7 +4,7 @@
 
 class EStackEmpty : public EStackException {
 public:
-    EStackEmpty() : EStackException("Stack is empty!!") { }
+    EStackEmpty() : EStackException("Stack is empty!") { }
 };
 
 
